@@ -1,4 +1,4 @@
-# korean_congress_scraper
+# Korean_congress_scraper
 
 20대 국회의원들의 개인 표결 기록을 수집하기 위한 크롤러입니다. 의원 개인의 인적정보와 소속정당과 법안 표결, 표결 내용를 수집합니다.
 
