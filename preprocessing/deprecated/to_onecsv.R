@@ -148,7 +148,6 @@ individual <- readxl::read_xlsx('data/data-assembly/assembly_modified.xlsx')
 names(individual)[1] <- "name"
 individual <- select(individual, c("name", "birth", "party","district","committee","when_elected"))
 individual %>% filter(name == "김성태")
-z
 
 total <- merge(individual, vote, by = 'name')
 
